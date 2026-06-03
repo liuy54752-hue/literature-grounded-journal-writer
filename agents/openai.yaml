@@ -1,0 +1,4 @@
+interface:
+  display_name: "Literature-Grounded Journal Writer"
+  short_description: "Draft journal articles from uploaded literature"
+  default_prompt: "Use $literature-grounded-journal-writer to draft a journal article from my uploaded literature and target outline."
