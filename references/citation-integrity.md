@@ -40,6 +40,28 @@ Safe synthesis wording:
 - "This stream of research leaves open..."
 - "While one line of work highlights..., another suggests..."
 
+## Secondary Citation and Cited-Source Evidence
+
+Uploaded papers can provide two kinds of usable material:
+
+- Primary source evidence: the uploaded paper's own theory, findings, analysis, definitions, or authorial claims.
+- Cited-source evidence: a claim, sentence, or argument move that the uploaded paper attributes to another work.
+
+When extracting cited-source evidence, record:
+
+- The uploaded paper where the sentence appears.
+- The page, section, heading, table, or figure where it appears, if available.
+- The exact sentence or short paraphrased claim from the uploaded paper.
+- The cited author-year inside that sentence.
+- Whether the original cited work has been directly read.
+
+Use cited-source evidence carefully:
+
+- It may guide literature framing, argument logic, and citation discovery.
+- It may be used as a secondary citation only when the manuscript style allows it.
+- Do not present it as directly verified original-source evidence unless the cited original has been provided or independently checked.
+- Mark it as "cited in uploaded literature; original source not directly verified" when the original has not been read.
+
 ## Author Inference
 
 Author inference is reasoning created for the target article. It may rely on literature, but it is not a direct source claim.
@@ -58,5 +80,6 @@ Before finalizing, check:
 - Every in-text citation appears in the reference list if a reference list is provided.
 - Every reference-list item cited in text is actually used or marked unused.
 - Every quoted excerpt has a source anchor.
+- Every cited-source evidence item is labeled as directly verified or not directly verified.
 - Every unsupported claim is revised, qualified, or marked as needing evidence.
 - No generated DOI, page number, author, or year was added from assumption.

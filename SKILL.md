@@ -1,6 +1,6 @@
 ---
 name: literature-grounded-journal-writer
-description: Draft source-grounded journal article manuscripts from user-provided target topics, outlines, research questions, variable relationships, theory notes, journal requirements, and uploaded academic literature. Use when Codex needs to read specified papers, extract original evidence and reusable writing material, synthesize literature logically, build section-level argument chains, develop introductions, literature reviews, theory/background sections, hypotheses, discussions, conclusions, or full journal-style drafts while preventing fabricated citations, page numbers, DOIs, authors, years, and source claims.
+description: Draft source-grounded journal article manuscripts and journal-paper Literature Review sections from user-provided topics, outlines, research questions, variable relationships, theory notes, journal requirements, and uploaded academic literature. Use when Codex needs to read specified papers, extract original evidence, synthesize research streams, critically compare prior work, construct defensible research gaps, build section-level argument chains, or develop introductions, literature reviews, theory/background sections, hypotheses, discussions, conclusions, or full journal-style drafts while preventing fabricated citations, page numbers, DOIs, authors, years, and source claims.
 ---
 
 # Literature-Grounded Journal Writer
@@ -17,6 +17,7 @@ Use this skill to turn a target article idea and uploaded literature into a sour
 2. Read the specified literature.
    - Use only user-provided papers unless the user explicitly asks for external literature.
    - Extract each paper's topic, theory, research question, concepts, variables, methods, article structure, argument flow, hypotheses, findings, limitations, and transferable writing patterns.
+   - Also extract useful sentences, claims, and argument moves where an uploaded paper cites or paraphrases other sources.
    - Preserve source anchors whenever available: author, year, title, page, section heading, DOI, table/figure, and quoted text location.
 
 3. Build a literature material bank.
@@ -39,6 +40,20 @@ Use this skill to turn a target article idea and uploaded literature into a sour
    - Never invent authors, years, page numbers, DOIs, titles, findings, or source claims.
    - Mark unavailable information as "not confirmed in provided materials."
    - Keep original excerpts, paraphrases, synthesized claims, and the author's own reasoning visibly distinct during drafting and review.
+
+## Literature Review Section Workflow
+
+When the requested output is the Literature Review section of a journal paper, read `references/literature-review-section.md` and use this path instead of treating the task as a shortened full-manuscript workflow:
+
+1. Define the review question, section function, and literature boundary.
+2. Assemble the literature: inventory uploaded sources, identify coverage gaps, and ask before conducting external searches. If approved, record databases or search tools, queries, dates, and added sources.
+3. Arrange the literature: build the Literature Review Evidence Matrix and group evidence by research stream, concept, theory, mechanism, variable relationship, or debate rather than by paper.
+4. Assess the literature: compare definitions, assumptions, methods, contexts, findings, limitations, boundary conditions, contradictions, and unresolved questions.
+5. Map the argument: assign one central claim to each subsection and connect evidence to a defensible gap and the target paper's positioning.
+6. Draft each analytical unit using: topic claim -> multi-source synthesis -> critical comparison -> unresolved issue -> target-study link. Adapt this sequence when a paragraph serves only one part of the larger unit.
+7. Audit the section: verify source status, claim support, citation integrity, cross-section continuity, and whether the claimed gap follows from the reviewed evidence.
+
+Do not use this workflow for a standalone review article, systematic review, meta-analysis, or PRISMA process. Do not imply exhaustive or systematic coverage unless the actual search design supports that claim.
 
 ## Required Outputs
 
@@ -67,6 +82,12 @@ For partial tasks, produce only the relevant subset and keep the same source-gro
 - If evidence is insufficient for a claim, state the evidence gap instead of writing with false certainty.
 - When a section requires reasoning beyond a single source, explicitly combine sources into a logical chain rather than listing papers one by one.
 - Keep all claims traceable to uploaded literature or clearly label them as the author's inference.
+- Distinguish primary source evidence from cited-source evidence:
+  - Primary source evidence comes from an uploaded paper's own theory, findings, analysis, or authorial claims.
+  - Cited-source evidence comes from a sentence in an uploaded paper that attributes a claim to another work.
+  - Writing pattern evidence uses the uploaded paper's rhetorical structure without treating the cited source as directly verified.
+- For cited-source evidence, record the uploaded paper, page or section, exact sentence or paraphrased claim, cited author-year, and whether the original cited work has been directly read.
+- Do not present cited-source evidence as directly verified unless the original cited work has also been provided or independently checked. Mark it as "cited in uploaded literature; original source not directly verified" when needed.
 
 ## References
 
@@ -74,6 +95,7 @@ Load only the reference files needed for the task:
 
 - `references/journal-article-structure.md`: section functions and common journal article moves.
 - `references/literature-synthesis-patterns.md`: synthesis, theoretical reasoning, and hypothesis development patterns.
+- `references/literature-review-section.md`: the dedicated Assemble-Arrange-Assess workflow for a journal paper's Literature Review section.
 - `references/evidence-matrix-template.md`: tables for material banks, excerpts, and argument chains.
 - `references/citation-integrity.md`: rules for quotation, paraphrase, citation checking, and anti-fabrication.
 

@@ -7,6 +7,24 @@ Use these templates when organizing uploaded literature.
 | Paper ID | Author/Year | Title | Theory | Research Question | Constructs/Variables | Method/Context | Key Findings | Article Structure | Useful Writing Moves | Source Anchors |
 |---|---|---|---|---|---|---|---|---|---|---|
 
+## Literature Review Evidence Matrix
+
+Use this expanded matrix when drafting the Literature Review section of a journal paper.
+
+| Evidence ID | Source | Anchor | Research Stream | Concept/Variable Relation | Theory/Mechanism | Method/Context | Supported Claim | Consensus/Conflict | Limitation | Boundary Condition | Evidence Status | Intended Subsection |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+
+Evidence status values:
+
+- Directly verified primary source
+- Verified claim from the uploaded paper itself
+- Cited in uploaded literature; original source not directly verified
+- Author synthesis across verified sources
+- Author inference requiring explicit reasoning
+- Evidence gap requiring another source
+
+Do not treat citation counts, prominence, or repeated secondary citations as substitutes for source verification or evidence quality.
+
 ## Literature Material Bank
 
 | Material ID | Source | Anchor | Original Text or Source Claim | Function Type | Supported Topic/Subclaim | Recommended Use | Risk/Check |
@@ -33,6 +51,13 @@ Keep excerpts short enough for citation review. Do not use this table as a manus
 
 | Section | Central Claim | Concepts to Define | Literature Inputs | Reasoning Steps | Gap/Tension | Drafting Notes |
 |---|---|---|---|---|---|---|
+
+## Literature Review Subsection Argument Map
+
+| Subsection | Section Function | Central Claim | Research Streams Compared | Convergent Evidence | Conflict/Limitation | Unresolved Issue | Target-Study Link | Sources Still Needed |
+|---|---|---|---|---|---|---|---|---|
+
+Each subsection must have one controlling claim. Use several paragraphs when necessary; do not force the entire argument map into one oversized paragraph.
 
 ## Hypothesis Chain
 

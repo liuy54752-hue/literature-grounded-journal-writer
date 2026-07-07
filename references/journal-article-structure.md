@@ -31,7 +31,7 @@ Build a compressed argument:
 
 ### Literature Review or Theoretical Background
 
-Do more than summarize papers. Organize prior work by concepts, theory streams, mechanisms, debates, empirical patterns, or unresolved problems.
+The Literature Review is a functional part of the target journal paper, not a standalone review article. Its job is to establish the concepts and prior knowledge required for the paper's research question, theoretical model, or hypotheses. Do more than summarize papers. Organize prior work by concepts, theory streams, mechanisms, debates, empirical patterns, or unresolved problems.
 
 Useful sequence:
 
@@ -41,6 +41,16 @@ Useful sequence:
 4. Compare convergent and divergent claims.
 5. Clarify what remains underexplained.
 6. Position the target article.
+
+Keep the section boundaries explicit:
+
+- Introduction: frame the broad problem, motivate importance, preview the focused gap and contribution; do not duplicate the full literature synthesis.
+- Literature Review/Theoretical Background: define constructs, synthesize relevant streams, critically compare evidence, establish the unresolved issue, and position the target study.
+- Hypotheses/Research Questions: convert the established literature and theory into specific directional predictions or answerable questions; do not introduce an unreviewed literature stream here without a clear reason.
+- Methods: explain how the study evaluates the question; do not use methodological detail as a substitute for reviewing prior evidence.
+- Discussion: interpret findings against the reviewed literature; do not introduce the central literature basis for the first time after results.
+
+Read `literature-review-section.md` for the dedicated planning, drafting, and audit workflow.
 
 ### Hypothesis Development
 
